@@ -1,0 +1,63 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.App-header{
+  background-color: black;
+  width:100%;
+  height:250px;
+}
+
+.button-container{
+  width:100%;
+  height: 70px;
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+
+.button-container button:hover {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  color:  #E3C519;
+  
+}
+
+.button-container button{
+  width: 170px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight:bold;
+  background-color: #cccc;
+  border: 4px solid black;
+  color: black;
+  cursor:pointer;
+}
+
+.button-container button:focus {
+  outline: none;
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+.main-container {
+  width: 100%;
+  height: 1000px;
+  /* background-color:#E3C519;  */
+  overflow: scroll;
+  background-image: url("../../Assets/bg.jpg");
+  background-size: cover;
+}
+  
+  
+ 
+
+
+
+

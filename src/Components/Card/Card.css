@@ -1,0 +1,17 @@
+.card {
+    width: 20%;
+    border: 2px solid black;
+    margin-bottom:20px;
+}
+
+.isFavorite{
+    font-size: 20px;
+}
+
+.card-holder{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding-top:20px;
+}

@@ -1,0 +1,68 @@
+.isFavorite{
+    font-size: 20px;
+    background-color: red;
+    border-radius:20px;
+    height:20px;
+}
+
+.people-card{
+  width:25%;
+  margin-left:40px;
+  margin-right:40px;
+  margin-bottom:30px;
+  opacity:0.8;
+  height:400px;
+  text-align: center;
+	color: #222;
+  background-size: cover;
+  background-image: url("../../Assets/people.png");
+  border: 12px dashed #1b1a19; 
+  font-family: "Gradientico";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 50px 25px;
+}
+
+.people-card h1{
+  border: 2px solid yellow;
+  padding: 3px;
+  border-radius: 50px;
+  width:75%;
+  color:white;
+}
+
+.people-card button{
+  position: relative;
+  left:130px;
+  top: -20px;
+}
+
+.button-box{
+  margin: 20px 0px 0px 20px;
+}
+
+.text-box{
+  position: relative;
+  top:45px;
+  font-family: "cursive"
+}
+
+.text-box p {
+  font-family: cursive;
+  font-weight: bold;
+  font-size:20px;
+  color:white;
+}
+
+.people-card button img {
+  width:100px;
+  height:100px;
+}
+
+.not-favorite{
+  border-radius:50px;
+  font-size:10px;
+}
+
